@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// A variable is made and is assigned the value of Dane
+// If name has the value/type of Mary, console.log will display "Hi, Mary"
+// It is not. Console log will instead display "How do you do?"
+
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Two variables are made- secret and code. Code is assigned value of 123.
+// If code has the value/type of 123 then secret will equal "super" and the variable code will multiply by two. This is true.
+// Code equals 246. If code is greater than 250 then secret will equal "duper". This is false
+// So console log of secret will display as "super"
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Three variables assigned. isStudent equals true, age equals 34, and zip equals 55407. 
+// If isStudent is equal to true and if zip is greater than 80000 then console log will display "You're a student on the West Coast". This is false.
+// If isStudent equals false and age is less than 30 then console log will display "What are your hobbies?". This is false.
+// If isStudent equals true then console log will display "Welcome to Prime!". This is true.
 
 //CODE
 /*
@@ -130,11 +130,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX - Values are reversed. colorOne should be set to blue and colorTwo should be set to red
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+//FIX - colorTwo should also be set to purple
   colorOne = 'purple';
 }
 */
@@ -147,6 +149,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX - logic operator should be && since notes included and not or
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,10 +163,10 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//FIX - rewrite as age >= minAge. Swap console logs 'no entry' and 'enter'
 if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
 }
 */
-
